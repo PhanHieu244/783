@@ -10,19 +10,19 @@ public class PurchasingManager : MonoBehaviour
       {
          case 1:
             GameDataManager.Instance.playerData.AddDiamond(100);
-             IAPManager.Instance.BuyProductID(IAPKey.PACK1);
+             IAPManager.Instance.BuyProductID(IAPKey.PACK1_RE);
             break;
          case 2:
             GameDataManager.Instance.playerData.AddDiamond(300);
-            IAPManager.Instance.BuyProductID(IAPKey.PACK2);
+            IAPManager.Instance.BuyProductID(IAPKey.PACK2_RE);
             break;
          case 3:
             GameDataManager.Instance.playerData.AddDiamond(500);
-            IAPManager.Instance.BuyProductID(IAPKey.PACK3);
+            IAPManager.Instance.BuyProductID(IAPKey.PACK3_RE);
             break;
          case 4:
             GameDataManager.Instance.playerData.AddDiamond(1000);
-            IAPManager.Instance.BuyProductID(IAPKey.PACK4);
+            IAPManager.Instance.BuyProductID(IAPKey.PACK4_RE);
             break;
       }
    }
